@@ -16,6 +16,12 @@ nav {
   padding: 0 1rem;
 }
 
+@media (max-width: 575px) {
+  nav .brand-logo{
+    font-size: 1.1rem;
+  }
+}
+
 main {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
@@ -37,3 +43,4 @@ main {
 label:not(:last-child) {
   margin-right: 1rem;
 }
+
