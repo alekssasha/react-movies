@@ -35,7 +35,7 @@ const {handleSearch = Function.type} = props;
                     />
                     <button 
                         className='btn search-btn' 
-                        onClick={() => handleSearch(search, type)}>Search</button>
+                        onClick={() => handleSearch(search, type)}>search</button>
                     <div>
                         <label>
                             <input 

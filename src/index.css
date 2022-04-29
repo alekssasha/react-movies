@@ -16,9 +16,28 @@ nav {
   padding: 0 1rem;
 }
 
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-size: 75%;
+  height: 26px;
+}
+
 @media (max-width: 575px) {
   nav .brand-logo{
     font-size: 1.1rem;
+  }
+  .search-btn {
+    position: absolute;
+    top: 9px;
+    right: 0.5rem;
+    border-radius: 3px;
+    background-color: #26a69a;
+    color: white;
+    font-size: 75%;
+    height: 26px;
+    line-height: 28px;
   }
 }
 
@@ -33,14 +52,8 @@ main {
   gap: 1rem;
 }
 
-.search-btn {
-  position: absolute;
-  top: 0px;
-  right: 0.5rem;
-  border-radius: 25px;
-}
+
 
 label:not(:last-child) {
   margin-right: 1rem;
 }
-
