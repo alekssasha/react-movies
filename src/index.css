@@ -19,9 +19,9 @@ nav {
 .search-btn {
   position: absolute;
   right: 0;
-  top: 7px;
+  top: 6px;
   font-size: 75%;
-  height: 26px;
+  height: 32px;
 }
 
 @media (max-width: 575px) {
