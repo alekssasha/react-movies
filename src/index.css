@@ -21,7 +21,7 @@ nav {
   right: 0;
   top: 6px;
   font-size: 75%;
-  height: 32px;
+  height: 32px
 }
 
 @media (max-width: 575px) {
